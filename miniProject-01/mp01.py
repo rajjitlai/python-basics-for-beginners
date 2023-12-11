@@ -9,4 +9,3 @@ with open("Users.txt", "r") as Users:
 
             with open(user.strip() + ".txt", "w") as Mail:
                 Mail.write(msg)
-
