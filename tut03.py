@@ -6,8 +6,8 @@ sample()
 
 
 # Python Keywords
-continue = "Coding" # will give error
-print(yield)
+# continue = "Coding" # will give error
+# print(yield)
 
 
 # Python Operators
