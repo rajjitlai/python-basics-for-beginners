@@ -31,6 +31,6 @@ n = 100
 # print(f'The sum of fist {user_input} is', sumN)
 # print(f'The average is', avg)
 
-Q1. Write a program to print the multiplication table of n, where n is the user input
-Q2. Write a program to check if a given number is prime or composite number
+# Q1. Write a program to print the multiplication table of n, where n is the user input
+# Q2. Write a program to check if a given number is prime or composite number
 
