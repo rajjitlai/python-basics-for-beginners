@@ -12,13 +12,17 @@ In this tutorial series, we'll cover everything you need to know to become profi
 
 Before diving into the tutorial, make sure you have Python installed on your computer. You can download it from the official Python website: [python.org](https://www.python.org/).
 
+Additionally, you'll need a text editor or an integrated development environment (IDE) to write and run your Python code. Popular choices include Visual Studio Code, PyCharm, and Sublime Text.
+
 ## Watch the videos on YouTube
 
 ![Python Basics For Beginners](https://shorturl.at/xDJ58)
 
 - [Watch Now](https://youtube.com/playlist?list=PL0oIPBtNQ9__hWan4IQwaBkNuxonWH1F2&si=9hTsnTLbf5uaXHHG)
 
-Additionally, you'll need a text editor or an integrated development environment (IDE) to write and run your Python code. Popular choices include Visual Studio Code, PyCharm, and Sublime Text.
+## Read our blog on the topic Python Basics for Beginners
+
+- [Read here](https://rjsblogg.netlify.app/posts/post-22)
 
 ## Topics Covered
 
