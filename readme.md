@@ -53,6 +53,9 @@ Here are some of the topics we'll cover in this tutorial series:
 - [Dictionary](./tutorials/tut21-i.py)
 - [Methods of Dictionary](./tutorials/tut21-ii.py)
 - [Sets](./tutorials/tut22.py)
+- [OOPs]
+- [Class Methods]
+- [Inheritance]
 
 ## Exercise
 
