@@ -56,6 +56,8 @@ Here are some of the topics we'll cover in this tutorial series:
 - [OOPs]
 - [Class Methods]
 - [Inheritance]
+- Methods of OOP
+- Creating Modules and Packages 
 
 ## Exercise
 
