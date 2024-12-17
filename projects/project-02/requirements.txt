@@ -1,0 +1,7 @@
+Requirements
+> 1 - PIL
+> 2 - os
+> 3 - PyQt5.QtWidgets
+> 4 - time
+> 5 - datetime
+> 6 - sys
