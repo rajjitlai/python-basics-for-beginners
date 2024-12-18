@@ -1,0 +1,5 @@
+Requirements
+
+> 1 - pypdf
+
+-- pypdf: It is used to handle pdf files
