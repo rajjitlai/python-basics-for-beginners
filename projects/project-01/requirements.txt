@@ -3,7 +3,7 @@ Requirements
 > 2 - messagebox from tkinter
 > 3 - random
 > 4 - string
-> 5 - pyperclip
+> 5 - pyperclip # pip install pyperclip
 
 -- tkinter: Required to create a GUI window with specified properties and settings. It provides tools to design a user-friendly interface.
 

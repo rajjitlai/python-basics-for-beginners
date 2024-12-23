@@ -1,24 +1,50 @@
+# Simple application of tkinter
+# from tkinter import *
+# from tkinter import ttk
+# root = Tk()
+# frm = ttk.Frame(root, padding=10)
+# frm.grid()
+# ttk.Label(frm, text="Hello World!").grid(column=0, row=0)
+# ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=0)
+# root.mainloop()
+
+# Simple application of tkinter messagebox
+# from tkinter import messagebox
+# def show_message():
+#     messagebox.showinfo("Information", "Hello World!")
+# show_message()
+
+# pyperclip implementation
+# import pyperclip
+# pyperclip.copy("Hello World!")
+# pyperclip.paste()
+
+# reference code
 import tkinter as tk
 from tkinter import messagebox
 import random
 import string
 import pyperclip
 
+
 def generate_password():
     try:
         length = int(entry_length.get())
         if length < 4:
-            messagebox.showerror("Error", "Password length should be at least 4 characters")
+            messagebox.showerror(
+                "Error", "Password length should be at least 4 characters"
+            )
             return
-        
+
         characters = string.ascii_letters + string.digits + string.punctuation
-        password = ''.join(random.choice(characters) for _ in range(length))
-        
+        password = "".join(random.choice(characters) for _ in range(length))
+
         entry_password.delete(0, tk.END)
         entry_password.insert(0, password)
-    
+
     except ValueError:
         messagebox.showerror("Error", "Please enter a valid number for length")
+
 
 def copy_to_clipboard():
     password = entry_password.get()
@@ -27,6 +53,7 @@ def copy_to_clipboard():
         messagebox.showinfo("Copied", "Password copied to clipboard!")
     else:
         messagebox.showwarning("Warning", "No password to copy!")
+
 
 root = tk.Tk()
 root.title("Password Generator")
